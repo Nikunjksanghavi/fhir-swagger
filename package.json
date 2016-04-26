@@ -4,11 +4,12 @@
   "description": "Helper for creating Swagger from FHIR APIs ======",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bobby-brennan/fhir-swagger.git"
+    "url": "git+https://github.com/bobby-brennan/fhir-swagger.git"
   },
   "author": "",
   "license": "MIT",
@@ -18,7 +19,7 @@
   "dependencies": {
     "async": "~1.4.0",
     "express": "~4.13.1",
-    "json-schema-generator": "bobby-brennan/json-schema-generator#patch-1",
+    "json-schema-generator": "github:bobby-brennan/json-schema-generator#patch-1",
     "jsonix": "~2.3.0",
     "request": "^2.69.0",
     "xsd2json": "~1.4.3",
@@ -30,5 +31,33 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "lucy-console": "^1.1.0"
-  }
+  },
+  "gitHead": "bda18b1b5c561f19a7b60b9eb0142af1e03a9f10",
+  "homepage": "https://github.com/bobby-brennan/fhir-swagger#readme",
+  "_id": "fhir-swagger@2.0.0",
+  "_shasum": "299b6071f7feb851e557f8ef5d17301dcdd11d36",
+  "_from": "fhir-swagger@latest",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "bobby-brennan",
+    "email": "bobby@bbrennan.info"
+  },
+  "dist": {
+    "shasum": "299b6071f7feb851e557f8ef5d17301dcdd11d36",
+    "tarball": "https://registry.npmjs.org/fhir-swagger/-/fhir-swagger-2.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "bobby-brennan",
+      "email": "bobby@bbrennan.info"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/fhir-swagger-2.0.0.tgz_1457216615560_0.7730005346238613"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/fhir-swagger/-/fhir-swagger-2.0.0.tgz",
+  "readme": "ERROR: No README data found!"
 }
